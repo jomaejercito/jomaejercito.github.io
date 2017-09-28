@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Road to Code (so far)"
-date:   2017-09-28 00:25:51 +0000
+date:   2017-09-27 20:25:52 -0400
 ---
 
 
