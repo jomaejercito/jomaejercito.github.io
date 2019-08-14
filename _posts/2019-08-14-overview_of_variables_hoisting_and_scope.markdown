@@ -9,6 +9,7 @@ permalink:  overview_of_variables_hoisting_and_scope
 What is a variable? According to Eloquent JavaScript, a binding or a **variable** is used by JavaScript to catch or hold *values*. Before the implemetation of ES6, `var` was the only key word that was used to declare variables. ES6 added two new key words for variable declaration; `let` & `const`. Each variable has a **scope**, which is the part of the program where the variable is visible. Variables can either have *global* or *local* scope. *Global* variables are variables that exist only once in a script, and are visible in every function. *Local* variables exist only in the block in which they are declared in. **Hoisting** in JavaScript is where variables and *function declarations* are moved to the top of their scope before code execution. Functions and variables are moved to the top of their scope when they are declared, regardless of whether their scope is global or local. This blog will discuss the differences between `var`, `let`, and  `const` in regards to **Scope**, and **Hoisting**.
 
 
+
 **`var`**
 
 `var` declarations can be globally and locally scoped; `var` is globally scoped when declared outside a function and locally scoped when it is declared within a function. For example:
@@ -30,8 +31,8 @@ console.log(b) // error: b not defined
 ```
 
 
-**`let`**
 
+**`let`**
 `let` declarations are *block scoped*. A block is code wrapped in curly braces. This means that a `let` variable declared in a block is only available in that block. This example will return an error because 'a' is used outside its block:
 
 ```
@@ -65,6 +66,7 @@ if(true) {
 }
 console.log(pokemon) // returns "mew"
 ```
+
 
 
 **`const`**
