@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Overview of Variables, Hoisting, and Scope"
-date:       2019-08-14 14:01:16 +0000
+date:       2019-08-14 10:01:17 -0400
 permalink:  overview_of_variables_hoisting_and_scope
 ---
 
@@ -31,6 +31,7 @@ console.log(b) // error: b not defined
 
 
 **`let`**
+
 `let` declarations are *block scoped*. A block is code wrapped in curly braces. This means that a `let` variable declared in a block is only available in that block. This example will return an error because 'a' is used outside its block:
 
 ```
