@@ -22,7 +22,7 @@ function shoes() {
 
 console.log(b) // error: b not defined
 ```
-`a` is globally scoped because it exists outside a function while `b` is locally scoped and can only be accessed in the newPokemon function. console.log(jigglypuff) will return an error because it is not available outside the function.
+`a` is globally scoped because it exists outside a function while `b` is locally scoped and can only be accessed in the shoes function. `console.log(adidas)` will return an error because it is not available outside the function.
 
 `var` can be reassigned and redeclared.  This means that there won't be an error when it is reassigned or redeclared:
 ```
@@ -58,7 +58,7 @@ let pokemon = "charmander"
 let pokemon = "squirtle" // error, identifier pokemon has already been declared
 ```
 
-Also, if the same `let` variable is defined in different scopes, there will not be an error since both instances are treated as different variables:
+Also, if the same `let` variable is defined in different scopes, there will not be an error since both variables were declared in different scopes:
 ```
 let pokemon = "mew"
 if(true) {
