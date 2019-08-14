@@ -33,6 +33,7 @@ console.log(b) // error: b not defined
 
 
 **`let`**
+
 `let` declarations are *block scoped*. A block is code wrapped in curly braces. This means that a `let` variable declared in a block is only available in that block. This example will return an error because 'a' is used outside its block:
 
 ```
